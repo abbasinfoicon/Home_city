@@ -173,6 +173,10 @@ header {
   padding-right: 20px;
   color: #fff;
 }
+
+.toplinks-wrapper ul li a:hover {
+    color: #dd0008;
+}
 .toplinks-wrapper ul li a i.fa {
   display: inline-block;
   font: 13px / 1 FontAwesome;
@@ -300,12 +304,164 @@ header {
     transition: all 200ms linear;
 }
 
+.header-middle{}
+.header-middle .logo-sec{}
+.header-middle .logo-sec img{}
+.header-middle .navigation-wrap{}
+.header-middle .navigation-wrap .navbar{}
+.header-middle .navigation-wrap .navbar .navbar-toggler{}
+.header-middle .navigation-wrap .navbar .navbar-toggler .navbar-toggler-icon{}
+.header-middle .navigation-wrap .navbar .navbar-collapse{}
+.header-middle .navigation-wrap .navbar .navbar-collapse .navbar-nav{}
+.header-middle .navigation-wrap .navbar .navbar-collapse .navbar-nav li{}
+.header-middle .navigation-wrap .navbar .navbar-collapse .navbar-nav li a{}
+.header-middle .navigation-wrap .navbar .navbar-collapse .navbar-nav li a .icon_items{}
+.header-middle .navigation-wrap .navbar .navbar-collapse .navbar-nav li a .icon_items img{}
 
 /*========================================================================================================
-================================ HOME-PAGE-CSS ===================================================================
+================================ all-Section ===================================================================
 ===========================================================================================================*/
 section {
   float: left;
   width: 100%;
   position: relative;
 }
+
+.title-text{}
+.title-text h3{}
+.title-text .line{}
+
+/*========================================================================================================
+================================ Slider-SECTION ===================================================================
+===========================================================================================================*/
+.slider-tabs{}
+.tab-content {}
+.tab-content .tab-pane{}
+.tab-content .tab-pane img{}
+.nav-tabs{}
+.nav-tabs .nav-item{}
+.nav-tabs .nav-item a{}
+.nav-tabs .nav-item a img{}
+.nav-tabs .nav-item a span{}
+
+/*========================================================================================================
+================================ NEW ARRIVALS ===================================================================
+===========================================================================================================*/
+.new-arrivals {}
+.new-arrivals .nav-tabs{}
+.new-arrivals .nav-tabs li{}
+.new-arrivals .nav-tabs li a{}
+.new-arrivals .tab-content{}
+.arrival-carousel{}
+.product-item{}
+.product-item .img-style{}
+.product-item .img-style img{}
+.sale-new{}
+.sale-new ul{}
+.sale-new ul li{}
+.sale-new ul li a{}
+.actions-secondary{}
+.actions-secondary ul{}
+.actions-secondary ul li{}
+.actions-secondary ul li a{}
+.actions-secondary ul li a i.fa{}
+.product-item a{}
+.rate-star{}
+.rate-star li{}
+.rate-star li a{}
+.rate-star li a i{}
+.price{}
+.price p{}
+.price p span{}
+.addtocart{}
+.addtocart a{}
+.addtocart a span{}
+
+.search-cart{}
+.two-section{}
+.two-section .search{}
+.two-section .search form{}
+.two-section .search form input{}
+.two-section .search form .btn-search{}
+.two-section .cart{}
+.two-section .cart .media{}
+.two-section .cart .media .media-left{}
+.two-section .cart .media .media-left i.fa{}
+.two-section .cart .media .media-body{}
+.two-section .cart .media .media-body i.fa{}
+.two-section .cart .media .media-body h3{}
+.two-section .cart .media .media-body h3 span{}
+/*========================================================================================================
+================================ DEAL OF THE DAY ===================================================================
+===========================================================================================================*/
+.deal-of-day{}
+.deal-section{}
+.deal-section .item{}
+.deal-section .item .img-style{}
+.deal-section .item .img-style img{}
+.sale-count{}
+.sale-count i{}
+.sale-count span{}
+.sale-count span.days{}
+.sale-count span.hr{}
+.sale-count span.min{}
+.sale-count span.sec{}
+.deal-section h3{}
+.deal-section p{}
+.inline-sec{}
+.inline-sec .addtocart{}
+.inline-sec .addtocart a{}
+.inline-sec .addtocart a span{}
+.inline-sec .wishlist{}
+.inline-sec .wishlist a{}
+.inline-sec .wishlist a i{}
+.inline-sec .compare{}
+.inline-sec .compare a{}
+.inline-sec .compare a i{}
+/*========================================================================================================
+================================ BEST SELLERS ===================================================================
+===========================================================================================================*/
+.best-sellers{}
+
+/*========================================================================================================
+================================ ADDITIONAL-SECTION ===================================================================
+===========================================================================================================*/
+.addition-sec{}
+.b-box{}
+.b-box img{}
+.b-box h3{}
+.b-box p{}
+/*========================================================================================================
+================================ Footer-SECTION ===================================================================
+===========================================================================================================*/
+footer{}
+.footer-top{}
+.footer-menu{}
+.footer-menu h3{}
+.footer-menu ul{}
+.footer-menu ul li{}
+.footer-menu ul li a{}
+.footer-menu ul li a i{}
+.footer-middle{}
+.socail-footer{}
+.socail-footer ul{}
+.socail-footer ul li{}
+.socail-footer ul li a{}
+.socail-footer ul li a i{}
+.newsletter{}
+.newsletter{}
+.newsletter .media{}
+.newsletter .media .media-letft{}
+.newsletter .media .media-letft img{}
+.newsletter .media .media-body{}
+.newsletter .media .media-body p{}
+.newsletter .media .media-body h3{}
+.newsletter .input-btn{}
+.newsletter .input-btn input{}
+.newsletter .input-btn button{}
+
+.footer-bottom{}
+.copyright{}
+.copyright p{}
+.card-sec{}
+.card-sec img{}
