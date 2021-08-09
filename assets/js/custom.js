@@ -51,6 +51,20 @@ $('.deal-section').owlCarousel({
     }
 });
 
+
+/*========================================================================================================
+================================ 02- DEAL OF THE DAY ===================================================================
+===========================================================================================================*/
+
+$('.product-gallery').owlCarousel({
+    loop:true,
+    responsiveClass:true,
+    nav: true,
+    dots: true,
+    navText: ["<img src='assets/img/left-icon.png' class='img-responsive left-icon'>", "<img src='assets/img/right-icon.png' class='img-responsive right-icon'>"],
+    items:1,
+});
+
 /*=====================================================================
     ==========================  03- ScrollToptoBottom  =========================
     ========================================================================*/
@@ -101,3 +115,22 @@ var x = setInterval(function() {
     document.getElementById("day").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+/*========================================================================================================
+================================ cart-popup ===================================================================
+===========================================================================================================*/
+
+
+$('.shoping-cart,#show_cart').click(function(e) { //button click class name is shoping-cart
+    e.stopPropagation();
+});
+  
+$(function(){
+    $(document).click(function(){  
+        $('.shoping-cart').removeClass('show'); //hide the button
+    });
+
+    $('#show_cart').click(function(){
+        $('.shoping-cart').toggleClass('show');
+    });
+});

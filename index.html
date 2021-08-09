@@ -34,10 +34,10 @@
             <div class="col-lg-8">
                 <div class="toplinks-wrapper">
                     <ul class="header-links">
-                        <li class="myaccount-link"><a href="#" title="My Account"><i class="fa fa-user" aria-hidden="true"></i> My Account</a></li>
+                        <li class="myaccount-link"><a href="my-account.html" title="My Account"><i class="fa fa-user" aria-hidden="true"></i> My Account</a></li>
                         <li class="link wishlist"><a href="#" title="My Wishlist"><i class="fa fa-heart" aria-hidden="true"></i> My Wish List</a></li>
                         <li class="checkout-link"><a href="#" title="Checkout"><i class="fa fa-check-square-o" aria-hidden="true"></i> Checkout</a></li>
-                        <li class="authorization-link"><a href="#" title="Sign in"><i class="fa fa-lock" aria-hidden="true"></i> Sign In</a></li>
+                        <li class="authorization-link"><a href="login.html" title="Sign in"><i class="fa fa-lock" aria-hidden="true"></i> Sign In</a></li>
                     </ul>
                 </div>               
             </div>
@@ -70,23 +70,23 @@
                                     <div class="collapse navbar-collapse" id="mainMenuheader">
                                         <ul class="navbar-nav">
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">New Arrivals</a>
+                                                <a class="nav-link" href="new-arrivals.html">New Arrivals</a>
                                                 <span class="icon_items"><img src="assets/img/hot-icon.png" alt="icon items"></span>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Dining</a>
+                                                <a class="nav-link" href="dining.html">Dining</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Bedroom</a>
+                                                <a class="nav-link" href="bedroom.html">Bedroom</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Living Room</a>
+                                                <a class="nav-link" href="living-room">Living Room</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Study & Office</a>
+                                                <a class="nav-link" href="study-office.html">Study & Office</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Modular Kitchens</a>
+                                                <a class="nav-link" href="modular-kitchens.html">Modular Kitchens</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -95,13 +95,13 @@
                                         <div class="two-section">
                                             <div class="search">
                                                 <form action="#">
-                                                    <input type="text" name="search" id="search">
+                                                    <input type="text" name="search" id="search" title="Search" placeholder="Enter Keywords to search..">
                                                     <button class="btn-search"><i class="fa fa-search"></i></button>
                                                 </form>
                                             </div>
 
                                             <div class="cart">
-                                                <a href="#">
+                                                <a href="javascript:void(0);" id="show_cart">
                                                     <div class="media">
                                                         <div class="media-left">
                                                             <i class="fa fa-shopping-basket"></i>
@@ -124,6 +124,108 @@
         </div>
     </div>
 </div><!-- header-middle -->
+
+<!-- shoping-cart -->
+<div class="shoping-cart">
+    <div class="header-top">
+        <h3>Your Product <span class="text-right">Price</span></h3>
+    </div>
+
+    <!-- product-sec -->
+    <div class="media">
+        <div class="media-left">
+            <div class="img-style">
+                <a href="#"><img src="assets/img/arrivals/img1.jpg" alt="" class="img-responsive"></a>
+            </div>
+            <div class="close"><i class="fa fa-times-circle"></i></div>
+        </div>
+
+        <div class="media-body">
+            <a href="#" class="h3">Relax Message Chair Recliner</a>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="qty-update">
+                        <label for="qty">Qty:</label>
+                        <input type="number" name="qty" id="qty" value="1">
+                        <button type="submit" class="btn-update">Update</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="price">$62.00</div>
+                </div>
+            </div>
+        </div>
+    </div><!-- product-sec -->
+
+    <!-- product-sec -->
+    <div class="media">
+        <div class="media-left">
+            <div class="img-style">
+                <a href="#"><img src="assets/img/arrivals/img1.jpg" alt="" class="img-responsive"></a>
+            </div>
+            <div class="close"><i class="fa fa-times-circle"></i></div>
+        </div>
+
+        <div class="media-body">
+            <a href="#" class="h3">Relax Message Chair Recliner</a>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="qty-update">
+                        <label for="qty">Qty:</label>
+                        <input type="number" name="qty" id="qty" value="1">
+                        <button type="submit" class="btn-update">Update</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="price">$62.00</div>
+                </div>
+            </div>
+        </div>
+    </div><!-- product-sec -->
+
+    <!-- product-sec -->
+    <div class="media">
+        <div class="media-left">
+            <div class="img-style">
+                <a href="#"><img src="assets/img/arrivals/img1.jpg" alt="" class="img-responsive"></a>
+            </div>
+            <div class="close"><i class="fa fa-times-circle"></i></div>
+        </div>
+
+        <div class="media-body">
+            <a href="#" class="h3">Relax Message Chair Recliner</a>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="qty-update">
+                        <label for="qty">Qty:</label>
+                        <input type="number" name="qty" id="qty" value="1">
+                        <button type="submit" class="btn-update">Update</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="price">$62.00</div>
+                </div>
+            </div>
+        </div>
+    </div><!-- product-sec -->
+
+    <div class="cart-subtotal">
+        <h3>Cart Subtotal : <span class="text-rigth">$159.00</span></h3>
+    </div>
+
+    <div class="footer-bottom">
+        <ul>
+            <li><a href="#">View Cart</a></li>
+            <li><a href="#">Checkout</a></li>
+        </ul>
+    </div>
+</div><!-- /shoping-cart -->
 
 </header>
 
@@ -261,7 +363,7 @@
                                         <ul>
                                             <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
                                             <li class="compare"><a href="#" title="Add to Compare"><i class="fa fa-refresh"></i></a></li>
-                                            <li class="view"><a href="#" title="Quick View"><i class="fa fa-search"></i></a></li>
+                                            <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -308,7 +410,7 @@
                                         <ul>
                                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                             <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                            <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -354,7 +456,7 @@
                                         <ul>
                                             <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                             <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                            <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -399,7 +501,7 @@
                                         <ul>
                                             <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                             <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                            <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                            <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -440,7 +542,7 @@
                                         <ul>
                                             <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                             <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                            <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                            <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -481,7 +583,7 @@
                                         <ul>
                                             <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                             <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                            <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                            <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -528,7 +630,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#" title="Add to Compare"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#" title="Quick View"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -575,7 +677,7 @@
                                        <ul>
                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -621,7 +723,7 @@
                                        <ul>
                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -666,7 +768,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -707,7 +809,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -748,7 +850,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -795,7 +897,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#" title="Add to Compare"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#" title="Quick View"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -842,7 +944,7 @@
                                        <ul>
                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -888,7 +990,7 @@
                                        <ul>
                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -933,7 +1035,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -974,7 +1076,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1015,7 +1117,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1062,7 +1164,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#" title="Add to Compare"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#" title="Quick View"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1109,7 +1211,7 @@
                                        <ul>
                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1155,7 +1257,7 @@
                                        <ul>
                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1200,7 +1302,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1241,7 +1343,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1282,7 +1384,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1329,7 +1431,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#" title="Add to Compare"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#" title="Quick View"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1376,7 +1478,7 @@
                                        <ul>
                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1422,7 +1524,7 @@
                                        <ul>
                                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1467,7 +1569,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1508,7 +1610,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1549,7 +1651,7 @@
                                        <ul>
                                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                                        </ul>
                                    </div>
                                </div>
@@ -1612,7 +1714,7 @@
                             <div class="media-left">
                                 <div class="img-style">
                                     <div class="quick-view">
-                                        <a href="#"><i class="fa fa-search"></i></a>
+                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a>
                                     </div>
 
                                     <img src="assets/img/deal/img1.jpg" alt="" class="img-fluid">
@@ -1675,7 +1777,7 @@
                             <div class="media-left">
                                 <div class="img-style">
                                     <div class="quick-view">
-                                        <a href="#"><i class="fa fa-search"></i></a>
+                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a>
                                     </div>
 
                                     <img src="assets/img/deal/img1.jpg" alt="" class="img-fluid">
@@ -1734,7 +1836,7 @@
                             <div class="media-left">
                                 <div class="img-style">
                                     <div class="quick-view">
-                                        <a href="#"><i class="fa fa-search"></i></a>
+                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a>
                                     </div>
 
                                     <img src="assets/img/deal/img1.jpg" alt="" class="img-fluid">
@@ -1819,7 +1921,7 @@
                        <ul>
                            <li class="wishlist"><a href="#" title="Add to Wishlist"><i class="fa fa-heart"></i></a></li>
                            <li class="compare"><a href="#" title="Add to Compare"><i class="fa fa-refresh"></i></a></li>
-                           <li class="view"><a href="#" title="Quick View"><i class="fa fa-search"></i></a></li>
+                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                        </ul>
                    </div>
                </div>
@@ -1866,7 +1968,7 @@
                        <ul>
                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                        </ul>
                    </div>
                </div>
@@ -1912,7 +2014,7 @@
                        <ul>
                            <li><a href="#"><i class="fa fa-heart"></i></a></li>
                            <li><a href="#"><i class="fa fa-refresh"></i></a></li>
-                           <li><a href="#"><i class="fa fa-search"></i></a></li>
+                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                        </ul>
                    </div>
                </div>
@@ -1957,7 +2059,7 @@
                        <ul>
                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                        </ul>
                    </div>
                </div>
@@ -1998,7 +2100,7 @@
                        <ul>
                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                        </ul>
                    </div>
                </div>
@@ -2039,7 +2141,7 @@
                        <ul>
                            <li class="wishlist"><a href="#"><i class="fa fa-heart"></i></a></li>
                            <li class="compare"><a href="#"><i class="fa fa-refresh"></i></a></li>
-                           <li class="view"><a href="#"><i class="fa fa-search"></i></a></li>
+                           <li class="view"><a href="javascript:void(0);" data-toggle="modal" data-target="#quickModal" title="Quick View"><i class="fa fa-search"></i></a></li>
                        </ul>
                    </div>
                </div>
@@ -2115,10 +2217,90 @@
         </div>
     </div>
 </section>
+
+
+
+
+<!-- quick-view-modal -->
+<div id="quickModal" class="quick-view-modal modal fade" role="dialog">
+
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="media">
+                    <div class="media-left">
+                        <div class="owl-carousel product-gallery">
+                            <div class="item">
+                                <div class="img-style"><img src="assets/img/arrivals/img1.jpg" alt="" class="img-responisve"></div>
+                            </div>
+
+                            <div class="item">
+                                <div class="img-style"><img src="assets/img/arrivals/img1.jpg" alt="" class="img-responisve"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="media-body">
+                        <h3>Sparkle Paper Towels 24 Giant</h3>
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <ul class="rate-star">
+                                    <li class="active"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="active"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="active"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li class="active"><a href="#"><i class="fa fa-star"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="stock">
+                                    <p><i class="fa fa-check-square-o"></i> In stock</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <p>$40.00 <span>$49.00</span></p>
+                        </div>
+
+                        <div class="qtn-update">
+                            <div class="qtn-addtocart">
+                                <div class="bg-gray">
+                                    <label for="qty">Qty</label>
+                                    <input type="number" name="qty" id="qty" value="1">
+                                </div>
+                                <div class="addtocart">
+                                    <a href="#">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="whishlist"><a href="#"><i class="fa fa-heart"></i></a></div>
+                            <div class="compare"><a href="#"><i class="fa fa-refresh"></i></a></div>
+                        </div>
+
+                        <p class="description">
+                            Dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui 
+                            blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+                            Nam liber tempor cum soluta nobis eleifend option into nihil imperdiet doming id 
+                            quod mazim placerat facer possim assum est notare.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div><!-- quick-view-modal -->
+
 <!--=============================================================================================
 ---------------------------- FOOTER --------------------------------------------
 ===================================================================================================-->
-
 
 <footer class="footer">
 
@@ -2129,9 +2311,9 @@
                     <div class="footer-menu con_us">
                         <h3>Contact with us</h3>
                         <ul class="">
-                            <li><a href="#"><i class="fa fa-map-marker"></i><span>Toll Free: 1800 1800 010, 1800 1800 020 <br> (Monday-Saturday, 10:00AM to 6:00PM)</span></a></li>
-                            <li><a href="#"><i class="fa fa-envelope"></i><span>Email: help@homecity.co.in</span></a></li>
-                            <li><a href="#"><i class="fa fa-mobile"></i><span>Phone: +91-8813 05 7000</span></a></li>
+                            <li><a href="javascript:void(0);"><i class="fa fa-map-marker"></i><span>Toll Free: 1800 1800 010, 1800 1800 020 <br> (Monday-Saturday, 10:00AM to 6:00PM)</span></a></li>
+                            <li><a href="mailto:help@homecity.co.in"><i class="fa fa-envelope"></i><span>Email: help@homecity.co.in</span></a></li>
+                            <li><a href="tel:8813057000"><i class="fa fa-mobile"></i><span>Phone: +91-8813 05 7000</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -2142,10 +2324,10 @@
                             <div class="footer-menu">
                                 <h3>Need Help?</h3>
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> About Us</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Return Policy</a></li>
+                                    <li><a href="about-us.html"><i class="fa fa-angle-double-right"></i> About Us</a></li>
+                                    <li><a href="contact-us.html"><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+                                    <li><a href="privacy-plicy.html"><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+                                    <li><a href="return-policy.html"><i class="fa fa-angle-double-right"></i> Return Policy</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2154,9 +2336,9 @@
                             <div class="footer-menu">
                                 <h3>Customer Service</h3>
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Shipping & Delivery</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Disclaimer Policy</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> My Account</a></li>
+                                    <li><a href="shipping-delivery.html"><i class="fa fa-angle-double-right"></i> Shipping & Delivery</a></li>
+                                    <li><a href="disclaimer-policy.html"><i class="fa fa-angle-double-right"></i> Disclaimer Policy</a></li>
+                                    <li><a href="my-account.html"><i class="fa fa-angle-double-right"></i> My Account</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2165,9 +2347,9 @@
                             <div class="footer-menu">
                                 <h3>Payment & Shipping</h3>
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Tearm & Conditions</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Payment Methods</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right"></i> Estimated Delivery Time</a></li>
+                                    <li><a href="tearm-conditions.html"><i class="fa fa-angle-double-right"></i> Tearm & Conditions</a></li>
+                                    <li><a href="payment-methods.html"><i class="fa fa-angle-double-right"></i> Payment Methods</a></li>
+                                    <li><a href="estimated-delivery.html"><i class="fa fa-angle-double-right"></i> Estimated Delivery Time</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -2220,7 +2402,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="copyright">
-                        <p>Home City @ 2021 All Rights Reserved. Designed by <a href="#">Infoicon</a></p>
+                        <p>Home City @ 2021 All Rights Reserved. Designed by <a href="https://www.infoicontechnologies.com/" target="_blank">Infoicon</a></p>
                     </div>
                 </div>
 
